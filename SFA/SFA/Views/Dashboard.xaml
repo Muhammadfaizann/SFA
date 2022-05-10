@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SFA.Views.Dashboard"
+             xmlns:vm="clr-namespace:SFA.ViewModels"
+             xmlns:controls="clr-namespace:SFA.Controls"
+             xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#f5f7fe">
+            <Grid Margin="10" ColumnDefinitions="5*,3*">
+                <Label Grid.Column="0" Text="Isianpadu Sales Force Automation System" FontAttributes="Bold" FontSize="Subtitle" LineBreakMode="WordWrap"></Label>
+                <StackLayout  Grid.Column="1" HorizontalOptions="End" >
+                    <combobox:SfComboBox HeightRequest="40" WidthRequest="170" ShowClearButton="False" x:Name="comboBox">
+                        <combobox:SfComboBox.ComboBoxSource>
+                            <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>2022</x:String>
+                                <x:String>2023</x:String>
+                                <x:String>2024</x:String>
+                                <x:String>2025</x:String>
+                                <x:String>2026</x:String>
+                                <x:String>2027</x:String>
+                            </ListCollection:List>
+                        </combobox:SfComboBox.ComboBoxSource>
+                    </combobox:SfComboBox>
+                </StackLayout>
+            </Grid>
+            <Grid Margin="10" RowDefinitions="80,80,80" ColumnDefinitions="*,*,*">
+                <controls:CustomFrame Grid.Row="0" Grid.Column="0" BackgroundColor="#12307a" Text="Today's Tender Submission" Text1="0" ></controls:CustomFrame>
+                <controls:CustomFrame Grid.Row="0" Grid.Column="1" BackgroundColor="#2554c6" Text="Total Hardware Tender" Text1="7" ></controls:CustomFrame>
+                <controls:CustomFrame Grid.Row="0" Grid.Column="2" BackgroundColor="#166ac7" Text="Total Application Tender" Text1="8" ></controls:CustomFrame>
+                <controls:CustomFrame Grid.Row="1" Grid.Column="0" BackgroundColor="#84a5ea" Text="Total Tender Entry" Text1="22" ></controls:CustomFrame>
+                <controls:CustomFrame Grid.Row="1" Grid.Column="1" BackgroundColor="#224aac" Text="Total Software Tender" Text1="12" ></controls:CustomFrame>
+                <controls:CustomFrame Grid.Row="1" Grid.Column="2" BackgroundColor="#2a65eb" Text="Total ICT Infra Tender" Text1="0" ></controls:CustomFrame>
+                <controls:CustomFrame Grid.Row="2" Grid.Column="0" BackgroundColor="#426ed9" Text="Total Mixed Tender" Text1="4" ></controls:CustomFrame>
+                <controls:CustomFrame Grid.Row="2" Grid.Column="1" BackgroundColor="#5cb3ff" Text="Total Follow Up" Text1="5" ></controls:CustomFrame>
+            </Grid>
+            <StackLayout Margin="10" >
+                <Frame CornerRadius="10" HasShadow="False">
+                    <Grid RowDefinitions="*,*,1,*,1,*,1,*,1,*,1,*,1,*" ColumnDefinitions="*,*"  >
+                        <Label Grid.Row="0" Grid.Column="0" Text="Project Details" FontAttributes="Bold" FontSize="Subtitle"></Label>
+                        <Label Grid.Row="1" Grid.Column="0" Text="Sales Stage" FontAttributes="Bold" FontSize="15"></Label>
+                        <Label Grid.Row="1" Grid.Column="1" Text="Total (RM)" FontAttributes="Bold" FontSize="15"></Label>
+                        <Frame Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" HasShadow="False" BackgroundColor="Black"></Frame>
+                        <Label Grid.Row="3" Grid.Column="0" Text="Prospect"></Label>
+                        <Label Grid.Row="3" Grid.Column="1" Text="330,500,000.00"></Label>
+                        <Frame Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="0" HasShadow="False" BackgroundColor="Black"></Frame>
+                        <Label Grid.Row="5" Grid.Column="0" Text="Potential"></Label>
+                        <Label Grid.Row="5" Grid.Column="1" Text="88,480,724.42"></Label>
+                        <Frame Grid.Row="6" Grid.ColumnSpan="2" Grid.Column="0" HasShadow="False" BackgroundColor="Black"></Frame>
+                        <Label Grid.Row="7" Grid.Column="0" Text="Best Few"></Label>
+                        <Label Grid.Row="7" Grid.Column="1" Text="9,382,292.52"></Label>
+                        <Frame Grid.Row="8" Grid.ColumnSpan="2" Grid.Column="0" HasShadow="False" BackgroundColor="Black"></Frame>
+                        <Label Grid.Row="9" Grid.Column="0" Text="Commitment To Buy"></Label>
+                        <Label Grid.Row="9" Grid.Column="1" Text="797,125.00"></Label>
+                        <Frame Grid.Row="10" Grid.ColumnSpan="2" Grid.Column="0" HasShadow="False" BackgroundColor="Black"></Frame>
+                        <Label Grid.Row="11" Grid.Column="0" Text="Won"></Label>
+                        <Label Grid.Row="11" Grid.Column="1" Text="1,348,348.80"></Label>
+                        <Frame Grid.Row="12" Grid.ColumnSpan="2" Grid.Column="0" HasShadow="False" BackgroundColor="Black"></Frame>
+                        <Label Grid.Row="13" Grid.Column="0" Text="Total" FontAttributes="Bold" FontSize="15"></Label>
+                        <Label Grid.Row="13" Grid.Column="1" Text="430,508,490.74" FontAttributes="Bold" FontSize="15"></Label>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿
+<Frame xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             HasShadow="False"
+             CornerRadius="5"
+             Padding="10"
+             BackgroundColor="AliceBlue"
+             x:Class="SFA.Controls.CustomFrame">
+    <StackLayout Orientation="Vertical">
+        <Label x:Name="value" FontSize="Micro" TextColor="White" Text="{Binding Team1}"></Label>
+        <Label x:Name="value1" FontSize="Medium" TextColor="White" Text="Hello"></Label>
+    </StackLayout>
+</Frame>

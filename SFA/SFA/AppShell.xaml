@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:SFA.Views"
+       Title="SFA"
+       x:Class="SFA.AppShell">
+
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="White" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+
+            <Style Class="FlyoutItemLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+            <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP=Transparent, iOS=White}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+          
+            <Style Class="MenuItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+
+    <FlyoutItem Title="Home" Icon="dashboard.png" >
+     <Tab Title="Dashboard" Icon="dashboard.png" >
+          <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:Dashboard}" />
+     </Tab>
+      <Tab Title="Add New" Icon="add.png">
+          <ShellContent ContentTemplate="{DataTemplate local:Addnewproject}" />
+      </Tab>
+      <Tab Title="Profile" Icon="profile.png" >
+          <ShellContent ContentTemplate="{DataTemplate local:Addnewproject}" />
+      </Tab>
+
+</FlyoutItem>
+    <FlyoutItem Title="Project" Icon="icon_feed.png" >
+    <ShellContent Title="page_1" Route="ItemsPage" ContentTemplate="{DataTemplate local:Addnewproject}" />
+</FlyoutItem>
+    <FlyoutItem Title="Registration" Icon="icon_feed.png"  >
+    <ShellContent Title="page_1" Route="ItemsPage" ContentTemplate="{DataTemplate local:Addnewproject}" />
+</FlyoutItem>
+    <FlyoutItem Title="Email Template" Icon="icon_feed.png" >
+        <ShellContent Title="page_1" Route="ItemsPage" ContentTemplate="{DataTemplate local:Addnewproject}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Target Dashboard"  Shell.TabBarIsVisible="False" FlyoutDisplayOptions="AsMultipleItems" x:Name="domestic" Style="{StaticResource BaseStyle}">
+        <ShellContent Icon="icon_about.png" Title="Info Box"  ContentTemplate="{DataTemplate local:Addnewproject}"   />
+        <ShellContent Icon="icon_about.png" Title="Info Gauge" IsVisible="{Binding Changed}" ContentTemplate="{DataTemplate local:Addnewproject}"   />
+        <ShellContent Icon="icon_about.png" Title="Info Gauge (Planning)" IsVisible="{Binding Changed}" ContentTemplate="{DataTemplate local:Addnewproject}"   />
+    </FlyoutItem>
+    <FlyoutItem Title="Repoerting" Icon="icon_feed.png" >
+        <ShellContent Title="page_1" Route="ItemsPage" ContentTemplate="{DataTemplate local:Addnewproject}" />
+    </FlyoutItem>
+    <FlyoutItem Icon="icon_feed.png" Title="Data Maintenance" >
+        <ShellContent Title="page_1" Route="ItemsPage" ContentTemplate="{DataTemplate local:Addnewproject}" />
+    </FlyoutItem>
+
+
+
+</Shell>

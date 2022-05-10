@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SFA.Views.Addnewproject"
+             Title="{Binding Title}"
+              xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+             xmlns:local="clr-namespace:SFA.ViewModels"  
+             xmlns:model="clr-namespace:SFA.Models"  
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Submit" Command="{Binding AddItemCommand}" />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <Grid Margin="10" ColumnDefinitions="*,2*"
+          RowDefinitions="auto,auto,auto,auto">
+        <Label Grid.Column="0" Grid.Row="0" Text="Tender Name " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+       
+            <Entry
+                Grid.Column="1" Grid.Row="0" 
+                PlaceholderColor="LightGray"
+                Margin="5"
+                Placeholder="Enter tender name (short)"
+                HeightRequest="40"/>
+        <Label Grid.Column="0" Grid.Row="1" Text="Client Name " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+
+        <combobox:SfComboBox
+                Grid.Column="1" Grid.Row="1" 
+                WatermarkColor="LightGray" 
+                Margin="5"
+                Watermark="Select client"
+                HeightRequest="40"/>
+        <Label Grid.Column="0" Grid.Row="2" Text="Sales Person " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+
+        <combobox:SfComboBox
+                Grid.Column="1" Grid.Row="2" 
+                WatermarkColor="LightGray" 
+                Margin="5"
+                Watermark="Select sales person "
+                HeightRequest="40"/> 
+        <Label Grid.Column="0" Grid.Row="3" Text="Current Stage " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+
+        <combobox:SfComboBox
+                Grid.Column="1" Grid.Row="3" 
+                WatermarkColor="LightGray" 
+                Margin="5"
+                Watermark="Select stage "
+                HeightRequest="40"/>
+
+    </Grid>
+        <Label Margin="5" Text="Project Details" FontAttributes="Bold" FontSize="Subtitle"></Label>
+        <Grid Margin="10" ColumnDefinitions="*,2*"
+          RowDefinitions="auto,auto,auto,auto">
+            <Label Grid.Column="0" Grid.Row="0" Text="Tender Category " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+
+            <combobox:SfComboBox
+                Grid.Column="1" Grid.Row="0" 
+                
+                Margin="5"
+                WatermarkColor="LightGray" 
+                Watermark="Select Category"
+                HeightRequest="40"/>
+            <Label Grid.Column="0" Grid.Row="1" Text="Submit Date " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+
+            <combobox:SfComboBox
+                Grid.Column="1" Grid.Row="1" 
+                
+                Margin="5"
+                Watermark="Select client"
+                WatermarkColor="LightGray" 
+                HeightRequest="40"/>
+            <Label Grid.Column="0" Grid.Row="2" Text="Tender Value (RM) " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+
+            <combobox:SfComboBox
+                Grid.Column="1" Grid.Row="2" 
+                
+                Margin="5"
+                WatermarkColor="LightGray" 
+                Watermark="Select sales person "
+                HeightRequest="40"/>
+            <Label Grid.Column="0" Grid.Row="3" Text="Total Tender Cost (RM) " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
+
+            <combobox:SfComboBox
+                Grid.Column="1" Grid.Row="3"
+                Margin="5"
+                WatermarkColor="LightGray" 
+                Watermark="Select stage "
+                HeightRequest="40"/>
+
+        </Grid>
+        <Label Margin="5,0,0,0" Text="Status " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Start" VerticalOptions="Center" >
+        </Label>
+        <Editor Margin="5,0,0,0" Keyboard="Plain" AutoSize="TextChanges" Placeholder="Enter remark (if any)" PlaceholderColor="LightGray"  MaxLength="500" />
+
+    </StackLayout>
+</ContentPage>
