@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{CBE29485-275F-42A5-A776-0EBBEF55B71A}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SFA" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SFA.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.41BB9DED-C89C-43D1-90C3-E700DED5ED96" />
+  <MonoDevelop.Ide.ItemProperties.SFA.Android PreferredExecutionTarget="Android.nexus_6_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
