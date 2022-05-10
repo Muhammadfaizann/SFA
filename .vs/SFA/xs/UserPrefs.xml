@@ -3,13 +3,19 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SFA" selected="True" />
+          <Node name="SFA" expanded="True">
+            <Node name="SFA" expanded="True">
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SFA.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.41BB9DED-C89C-43D1-90C3-E700DED5ED96" />
+  <MonoDevelop.Ide.ItemProperties.SFA.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A580FCFE-8AA3-466B-B150-57978785D1A0" />
   <MonoDevelop.Ide.ItemProperties.SFA.Android PreferredExecutionTarget="Android.nexus_6_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
