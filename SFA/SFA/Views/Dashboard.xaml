@@ -2,15 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SFA.Views.Dashboard"
-             xmlns:vm="clr-namespace:SFA.ViewModels"
+             
              xmlns:controls="clr-namespace:SFA.Controls"
              xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
              xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
-             Title="{Binding Title}">
-    
-    <ContentPage.BindingContext>
-        <vm:AboutViewModel />
-    </ContentPage.BindingContext>
+             Title="Dashboard">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" BackgroundColor="#f5f7fe">
             <Grid Margin="10" ColumnDefinitions="5*,3*">

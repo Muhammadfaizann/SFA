@@ -103,6 +103,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Syncfusion.Xamarin.SfComboBox": {
               "target": "Package",
               "version": "[20.1.0.52, )"

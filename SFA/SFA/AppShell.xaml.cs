@@ -1,4 +1,4 @@
-﻿using SFA.ViewModels;
+﻿
 using SFA.Views;
 using System;
 using System.Collections.Generic;
@@ -11,8 +11,7 @@ namespace SFA
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

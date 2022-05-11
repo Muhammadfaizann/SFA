@@ -1,0 +1,34 @@
+[
+    {
+        "Id": "22",
+        "ClientName": "AGROBANK"
+    },
+    {
+         "Id": "23",
+        "ClientName": "BANK ISLAM"
+    },
+    {
+         "Id": "24",
+        "ClientName": "BANK RAKYAT"
+    },
+    {
+         "Id": "25",
+        "ClientName": "HUKM"
+    },
+    {
+         "Id": "26",
+        "ClientName": "JPJ"
+    },
+    {
+         "Id": "27",
+        "ClientName": "CSM"
+    },
+    {
+         "Id": "28",
+        "ClientName": "KDN"
+    },
+    {
+         "Id": "29",
+        "ClientName": "MOTAC"
+    }
+]

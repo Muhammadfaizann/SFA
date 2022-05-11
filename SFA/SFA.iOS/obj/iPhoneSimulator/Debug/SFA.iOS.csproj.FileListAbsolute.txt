@@ -1,5 +1,6 @@
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/SFA.iOS.exe
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/SFA.iOS.pdb
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Licensing.dll
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.dll
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.iOS.dll
@@ -50,29 +51,29 @@
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/SFA.dll
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/bin/iPhoneSimulator/Debug/SFA.pdb
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/actool/_PartialAppManifest.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/actool/_BundleResourceWithLogicalName.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/actool/_ProcessedImageAssetsPath.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/ibtool/_BundleResourceWithLogicalName.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/coremlc/_PartialAppManifest.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/coremlc/_BundleResourceWithLogicalName.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/_ProcessedBundleResourcesPath.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/_ProcessedContentPath.items
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/icon_about.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/icon_about@2x.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/icon_about@3x.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/icon_feed.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/icon_feed@2x.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/icon_feed@3x.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/xamarin_logo.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/xamarin_logo@2x.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/xamarin_logo@3x.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/add.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/dashboard.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/profile.png
-/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro-15.4/optimized/
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/actool/_PartialAppManifest.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/actool/_BundleResourceWithLogicalName.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/actool/_ProcessedImageAssetsPath.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/coremlc/_PartialAppManifest.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/_ProcessedBundleResourcesPath.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/_ProcessedContentPath.items
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/icon_about.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/icon_about@2x.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/icon_about@3x.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/icon_feed.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/icon_feed@2x.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/icon_feed@3x.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/xamarin_logo.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/xamarin_logo@2x.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/xamarin_logo@3x.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/add.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/dashboard.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/profile.png
+/Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.4/optimized/
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/SFA.iOS.csproj.AssemblyReference.cache
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/SFA.iOS.csproj.CoreCompileInputs.cache
 /Users/faizan/Desktop/SFA/SFA/SFA.iOS/obj/iPhoneSimulator/Debug/SFA.iOS.csproj.CopyComplete

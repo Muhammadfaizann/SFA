@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E4IGvvsPN7bwOkfrpSgTPPfJC/tmyPLAqeWCPre+6KiWbFLagZgRAPApdJkWyrQFS0sjSGodxkTvjagm/0Edzg==",
+  "dgSpecHash": "fgo6ow/WDVNPpVw6y1UjLbMtcAHOKHjjeqxD9o3W98+EHy/yCWGxjqj4JmeMU/UDndzONNYQ/8oLcBxTAS7Xjw==",
   "success": true,
   "projectFilePath": "/Users/faizan/Desktop/SFA/SFA/SFA.iOS/SFA.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/faizan/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/faizan/.nuget/packages/syncfusion.licensing/20.1.0.52/syncfusion.licensing.20.1.0.52.nupkg.sha512",
     "/Users/faizan/.nuget/packages/syncfusion.xamarin.core/20.1.0.52/syncfusion.xamarin.core.20.1.0.52.nupkg.sha512",
     "/Users/faizan/.nuget/packages/syncfusion.xamarin.sfcombobox/20.1.0.52/syncfusion.xamarin.sfcombobox.20.1.0.52.nupkg.sha512",

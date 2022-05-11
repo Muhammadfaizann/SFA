@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SFA.Views.Addnewproject"
-             Title="{Binding Title}"
+             Title="New Project"
               xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
              xmlns:local="clr-namespace:SFA.ViewModels"  
              xmlns:model="clr-namespace:SFA.Models"  
@@ -25,9 +25,11 @@
         <Label Grid.Column="0" Grid.Row="1" Text="Client Name " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
 
         <combobox:SfComboBox
+                x:Name="clientList"
                 Grid.Column="1" Grid.Row="1" 
                 WatermarkColor="LightGray" 
                 Margin="5"
+                DisplayMemberPath="ClientName"
                 Watermark="Select client"
                 HeightRequest="40"/>
         <Label Grid.Column="0" Grid.Row="2" Text="Sales Person " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
@@ -62,29 +64,28 @@
                 HeightRequest="40"/>
             <Label Grid.Column="0" Grid.Row="1" Text="Submit Date " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
 
-            <combobox:SfComboBox
+            <DatePicker
                 Grid.Column="1" Grid.Row="1" 
-                
                 Margin="5"
-                Watermark="Select client"
-                WatermarkColor="LightGray" 
                 HeightRequest="40"/>
             <Label Grid.Column="0" Grid.Row="2" Text="Tender Value (RM) " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
 
-            <combobox:SfComboBox
+            <Entry
                 Grid.Column="1" Grid.Row="2" 
                 
                 Margin="5"
-                WatermarkColor="LightGray" 
-                Watermark="Select sales person "
+                PlaceholderColor="LightGray"
+                Keyboard="Numeric"
+                Placeholder="0.0 "
                 HeightRequest="40"/>
             <Label Grid.Column="0" Grid.Row="3" Text="Total Tender Cost (RM) " FontAttributes="Bold" FontSize="Body" HorizontalTextAlignment="Center" VerticalOptions="Center" ></Label>
 
-            <combobox:SfComboBox
+            <Entry
                 Grid.Column="1" Grid.Row="3"
                 Margin="5"
-                WatermarkColor="LightGray" 
-                Watermark="Select stage "
+                PlaceholderColor="LightGray" 
+                Placeholder="0.0 "
+                Keyboard="Numeric"
                 HeightRequest="40"/>
 
         </Grid>

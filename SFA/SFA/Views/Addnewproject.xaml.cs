@@ -1,10 +1,12 @@
-﻿using SFA.Models;
-using SFA.ViewModels;
+﻿using Newtonsoft.Json;
+using SFA.Models;
 using SFA.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -14,19 +16,39 @@ namespace SFA.Views
 {
     public partial class Addnewproject : ContentPage
     {
-        ItemsViewModel _viewModel;
+      
 
         public Addnewproject()
         {
             InitializeComponent();
-
-            BindingContext = _viewModel = new ItemsViewModel();
+            LoadClientsfromJson();
+            
         }
 
         protected override void OnAppearing()
         {
+
             base.OnAppearing();
-            _viewModel.OnAppearing();
+            
+        }
+        private void LoadClientsfromJson()
+        {
+            try
+            {
+                Assembly assembly = typeof(App).Assembly;
+                using (Stream stream = assembly.GetManifestResourceStream("SFA.client.json"))
+                {
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        var jsonString = reader.ReadToEnd();
+                        var clients = JsonConvert.DeserializeObject<List<Client>>(jsonString);
+                        clientList.DataSource = clients;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+            }
         }
     }
 }
