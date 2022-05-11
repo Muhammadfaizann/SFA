@@ -3,10 +3,11 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SFA" expanded="True" selected="True">
+          <Node name="SFA" expanded="True">
             <Node name="SFA" expanded="True">
               <Node name="Views" expanded="True">
                 <Node name="Addnewproject.xaml" expanded="True" />
+                <Node name="Dashboard.xaml" selected="True" />
                 <Node name="LoginPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />

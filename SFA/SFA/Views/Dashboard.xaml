@@ -12,7 +12,7 @@
             <Grid Margin="10" ColumnDefinitions="5*,3*">
                 <Label Grid.Column="0" Text="Isianpadu Sales Force Automation System" FontAttributes="Bold" FontSize="Subtitle" LineBreakMode="WordWrap"></Label>
                 <StackLayout  Grid.Column="1" HorizontalOptions="End" >
-                    <combobox:SfComboBox HeightRequest="40" WidthRequest="170" ShowClearButton="False" x:Name="comboBox">
+                    <combobox:SfComboBox HeightRequest="40" SelectedIndex="0" WidthRequest="170" ShowClearButton="False" x:Name="comboBox">
                         <combobox:SfComboBox.ComboBoxSource>
                             <ListCollection:List x:TypeArguments="x:String">
                                 <x:String>2022</x:String>
